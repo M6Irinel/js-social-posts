@@ -1,0 +1,19 @@
+
+li {
+    list-style: none;
+    margin-bottom: 20px;
+}
+
+.like-button {
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+.like-button:hover {
+    background: none !important;
+}
+
+.like-button.like {
+    color: #3939ff;
+}
