@@ -1,0 +1,40 @@
+
+li {
+    list-style: none;
+    margin-bottom: 20px;
+}
+
+.like-button {
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+.like-button:hover {
+    background: none !important;
+}
+
+.like-button.like {
+    color: #3939ff;
+}
+
+.letter_Upper_Case {
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 0 10px;
+}
+
+.miPiace, .data {
+    background-color: #fff;
+    padding: 10px 0;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.miPiace > :first-child {
+    padding-bottom: 10px;
+}
+
+.miPiace span, .data span {
+    font-weight: bold;
+}
